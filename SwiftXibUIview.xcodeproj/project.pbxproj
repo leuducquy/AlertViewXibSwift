@@ -12,6 +12,8 @@
 		F20169BF1E1E199A00619E98 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F20169BD1E1E199A00619E98 /* Main.storyboard */; };
 		F20169C11E1E199A00619E98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F20169C01E1E199A00619E98 /* Assets.xcassets */; };
 		F20169C41E1E199A00619E98 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F20169C21E1E199A00619E98 /* LaunchScreen.storyboard */; };
+		F20169CC1E1E19BC00619E98 /* PopUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F20169CB1E1E19BC00619E98 /* PopUpView.swift */; };
+		F20169CE1E1E19E400619E98 /* PopUpView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F20169CD1E1E19E400619E98 /* PopUpView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		F20169C01E1E199A00619E98 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F20169C31E1E199A00619E98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F20169C51E1E199A00619E98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F20169CB1E1E19BC00619E98 /* PopUpView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopUpView.swift; sourceTree = "<group>"; };
+		F20169CD1E1E19E400619E98 /* PopUpView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PopUpView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				F20169C01E1E199A00619E98 /* Assets.xcassets */,
 				F20169C21E1E199A00619E98 /* LaunchScreen.storyboard */,
 				F20169C51E1E199A00619E98 /* Info.plist */,
+				F20169CB1E1E19BC00619E98 /* PopUpView.swift */,
+				F20169CD1E1E19E400619E98 /* PopUpView.xib */,
 			);
 			path = SwiftXibUIview;
 			sourceTree = "<group>";
@@ -124,6 +130,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F20169C41E1E199A00619E98 /* LaunchScreen.storyboard in Resources */,
+				F20169CE1E1E19E400619E98 /* PopUpView.xib in Resources */,
 				F20169C11E1E199A00619E98 /* Assets.xcassets in Resources */,
 				F20169BF1E1E199A00619E98 /* Main.storyboard in Resources */,
 			);
@@ -136,6 +143,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F20169CC1E1E19BC00619E98 /* PopUpView.swift in Sources */,
 				F20169BC1E1E199A00619E98 /* ViewController.swift in Sources */,
 				F20169BA1E1E199A00619E98 /* AppDelegate.swift in Sources */,
 			);
@@ -261,6 +269,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SwiftXibUIview/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = quy.com.SwiftXibUIview;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -273,6 +282,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SwiftXibUIview/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = quy.com.SwiftXibUIview;
 				PRODUCT_NAME = "$(TARGET_NAME)";
