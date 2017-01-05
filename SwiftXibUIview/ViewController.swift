@@ -13,8 +13,12 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let alert = PopUpView(frame: self.view.frame);
-        alert.showAlert()
+        let alert = PopUpView(frame: self.view.frame)
+        
+        
+        alert.showAlert(_aView: self.view)
+        
+      //  let newAlert = P
         // Do any additional setup after loading the view, typically from a nib.
     }
 

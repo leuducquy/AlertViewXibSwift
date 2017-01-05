@@ -21,21 +21,22 @@ class PopUpView: UIView {
         super.init(coder: aDecoder)
        loadViewFromNib()
     }
-    public func  showAlert(){
+    public func  showAlert(_aView : UIView){
         
-       UIApplication.shared.keyWindow?.addSubview(self)
+       _aView.addSubview(self)
      
       UIApplication.shared.keyWindow?.bringSubview(toFront: self)
     }
   
     private func loadViewFromNib() {
 //        self.backgroundColor = [UIColor colorWithWhite:0 alpha:0.4];
-        self.backgroundColor = UIColor(white: 0, alpha: 0.4)
+      
 
         let bundle = Bundle(for: type(of: self))
         let nib = UINib(nibName: "PopUpView", bundle: bundle)
         let view = nib.instantiate(withOwner: self, options: nil)[0] as! UIView
         view.frame = bounds
+        view.backgroundColor = UIColor(white: 0 , alpha: 0.4)
         view.autoresizingMask = [.flexibleWidth, .flexibleHeight]
         self.addSubview(view);
         
